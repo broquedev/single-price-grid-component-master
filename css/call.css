@@ -1,0 +1,19 @@
+.call {
+    padding: 2em 1.5em;
+    background-color: #fff; 
+    border-radius: 5px 5px 0 0;   
+}
+
+.call__title {
+    margin-bottom: 1em;
+    font-size: var(--main-title);
+    color: var(--cyan);
+}
+
+.call__subtitle {
+    margin-bottom: 1em;
+    font-size: var(--subtitles);
+    color: var(--bright-yellow);
+}
+
+.call > p { color:var(--grayish-blue); } 

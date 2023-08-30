@@ -1,0 +1,15 @@
+.benefits {
+    flex-grow: 1;
+    padding: 2em 1.5em;
+    background-color: var(--light-cyan);
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.benefits__subtlite { margin-bottom: 1em; }
+
+.benefits__list > li {
+    display: block;
+    margin-bottom: .2em;
+    opacity: .8;
+}

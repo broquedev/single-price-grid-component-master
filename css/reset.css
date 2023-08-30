@@ -1,0 +1,12 @@
+/*=Basic Reset
+=====================================*/
+body, h1, h2, p, strong {
+    margin: 0;
+    padding: 0;
+}
+    
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

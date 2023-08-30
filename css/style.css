@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url(./reset.css);
+@import url(./call.css);
+@import url(./subscription.css);
+@import url(./benefits.css);
+@import url(./attribuition.css);
+
+
+:root { 
+    --main-title: 1.4em;
+    --subtitles: 1.1em;
+    --line-height-txt: 1.8;
+    
+    --ff-primary: 'Karla', sans-serif;
+    --cyan: hsl(179, 62%, 43%);
+    --light-cyan: hsl(179, 64%, 49%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --ligth-bright-yellow: hsl(71, 77%, 57%);
+    --Light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --attribuition: hsl(228, 45%, 44%);
+
+}
+
+body {
+    font-size: .937em;
+    font-family: var(--ff-primary);
+    background-color: var(--Light-gray);
+}
+
+p { line-height: var(--line-height-txt); }
+
+.container {
+    padding: 4em 1em;
+    display: flex;
+    flex-direction: column;
+}
